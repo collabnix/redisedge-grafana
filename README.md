@@ -77,12 +77,13 @@ Note that you'll also need to install the Pythonic [`requirements.txt`](/redised
 4. Go to `/opt/redislabs/lib/modules/python27`
 5. Install the rest of the requirements with `pipenv install numpy pillow`
 
-### (optional) Prometheus and Grafana
+### (optional) Prometheus 
+
+As we have Redis Data Source for Grafana, we don't really require Prometheus. If you still want to use Prometheus, just remove the comments from docker-compose file and you are good to go.
 
 Refer to the build/installation instructions of the following projects to set up Prometheus, Grafana and the RedisTimeSeries adapter:
 
 * Prometheus: [Installation](https://prometheus.io/), [config sample](/prometheus/config.yml)
-* Grafana: [Installation](https://grafana.com/), [config sample](/grafana/config.ini), [datasource sample](/grafana/provisioning/datasources/prometheus.yaml), [dashboard samples](/grafana/dashboards/)
 * [prometheus-redistimeseries-adapter](https://github.com/RedisTimeSeries/prometheus-redistimeseries-adapter)
 
 See below on how to run a partially-dockerized setup that circumvents the need to install these locally.
