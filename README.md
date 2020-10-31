@@ -16,6 +16,9 @@ This project demonstrates a possible deployment of the RedisEdge stack that prov
 
 Also, this conists of Redis Data Source Plugin for Grafana
 
+![Grafana Dashboard](images/grafana_redis.png)
+
+
 The following diagram depicts the flows between the system's parts.
 
 ![System diagram](images/redisedge.png)
