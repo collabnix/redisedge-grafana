@@ -9,6 +9,11 @@ An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for 
 ## Overview
 
 This project demonstrates a possible deployment of the RedisEdge stack that provides real-time analytics of video streams.
+
+![RediEdge Stack](images/redisedge_components.png)
+
+
+
 Also, this conists of Redis Data Source Plugin for Grafana
 
 The following diagram depicts the flows between the system's parts.
