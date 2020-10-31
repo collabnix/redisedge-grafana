@@ -30,19 +30,19 @@ services:
     build: ./prometheus
     ports:
       - 9090:9090
-  prometheus-redistimeseries-adapter:
-    image: redislabs/prometheus-redistimeseries-adapter:master
-    # TODO: freeze version
-    depends_on:
-      - prometheus
-    ports:
-      - 9201:9201
-    command: ['-redis-address', 'redisedge:6379', '-web.listen-address', '0.0.0.0:9201']
+  #prometheus-redistimeseries-adapter:
+  #  image: redislabs/prometheus-redistimeseries-adapter:master
+  #  # TODO: freeze version
+  #  depends_on:
+  #    - prometheus
+  #  ports:
+  #    - 9201:9201
+  #  command: ['-redis-address', 'redisedge:6379', '-web.listen-address', '0.0.0.0:9201']
   grafana:
     image: ajeetraina/grafana-redisedge
     environment:
       - GF_INSTALL_PLUGINS=redis-app
-    depends_on:
-      - prometheus
+  #  depends_on:
+  #    - prometheus
     ports:
       - 3000:3000
