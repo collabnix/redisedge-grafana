@@ -18,7 +18,7 @@ Also, this conists of Redis Data Source Plugin for Grafana
 
 The following diagram depicts the flows between the system's parts.
 
-![System diagram](diagram.svg)
+![System diagram](images/redisedge.png)
 
 The process is a pipeline of operations that go as follows:
 1. A video stream producer adds a captured frame to a Redis Stream.
