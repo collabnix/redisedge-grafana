@@ -1,13 +1,8 @@
-[![license](https://img.shields.io/github/license/RedisGears/EdgeRealtimeVideoAnalytics.svg)](https://github.com/RedisGears/EdgeRealtimeVideoAnalytics)
-[![CircleCI](https://circleci.com/gh/RedisGears/EdgeRealtimeVideoAnalytics/tree/master.svg?style=svg)](https://circleci.com/gh/RedisGears/EdgeRealtimeVideoAnalytics/tree/master)
-[![Forum](https://img.shields.io/badge/Forum-RedisGears-blue)](https://forum.redislabs.com/c/modules/redisgears)
-[![Gitter](https://badges.gitter.im/RedisLabs/RedisGears.svg)](https://gitter.im/RedisLabs/RedisGears?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana 
 
 An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people).
 
-Given [this input video](https://youtu.be/VqkMaIk6fKc?t=16), the final output looks something like this:
 
 ![demo](https://github.com/collabnix/redisedge-grafana/blob/main/images/grafana_demo.png)
 
@@ -30,8 +25,6 @@ The process is a pipeline of operations that go as follows:
 3. A video web server renders the final image based on real-time data from Redis' Streams.
 4. Time series are exported from Redis to Prometheus, enabling visualization with Grafana's dashboards.
 
-See ["My Other Stack is RedisEdge"](https://redislabs.com/blog/my-other-stack-is-redisedge/) for a wordy overview.
-Watch ["RedisConf19 Keynote Day 2"](https://www.youtube.com/watch?v=t1U7ulz1_Dg&feature=youtu.be&t=4767) for a video demonstration.
 
 ### The RedisEdge Stack
 
