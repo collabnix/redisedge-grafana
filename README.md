@@ -222,6 +222,4 @@ The Docker Compose setup also comes with a pre-provisioned Grafana server - it s
 
 Note: if you're installing this project on something that isn't your localhost, you'll need to put its hostname or IP address in the URL of the 'camera:0' Grafana panel for the video to show.
 
-## Known issues, limitations and todos
 
-* TBD
