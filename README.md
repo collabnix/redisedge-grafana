@@ -9,7 +9,7 @@ An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for 
 
 Given [this input video](https://youtu.be/VqkMaIk6fKc?t=16), the final output looks something like this:
 
-![demo](demo.gif)
+![demo](https://github.com/collabnix/redisedge-grafana/blob/main/images/grafana_demo.png)
 
 ## Overview
 
