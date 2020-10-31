@@ -1,5 +1,6 @@
 
 # Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana 
+Extension to https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
 
 An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people).
 
