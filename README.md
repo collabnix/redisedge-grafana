@@ -1,6 +1,6 @@
 
 # Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana 
-Extending https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
+Credits: https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
 
 An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people).
 
@@ -39,7 +39,7 @@ The process is a pipeline of operations that go as follows:
 
 The RedisEdge stack consists of the latest Redis stable release and select RedisLabs modules intended to be used in Edge computing. For more information refer to [RedisEdge](https://github.com/RedisLabs/redis-edge-docker).
 
-### YOLO
+### References:
 
-You Look Only Once, or YOLO for shorts ([good overview](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/single-shot-detectors/yolo.html)), is an object detection neural network. This project uses the "tiny" YOLOv3 model.
+- https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
 
