@@ -2,7 +2,18 @@
 # Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana 
 Credits: https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
 
-An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people).
+### Description:
+
+RedisEdge bundles Open Source Redis + Redis Streams + Redis Modules. 
+- Redis Stream is a new data type introduced with Redis 5.0, which models a log data structure in a more abstract way.
+- RedisTimeSeries is a Redis Module adding a Time Series data structure to Redis.
+- RedisGears is a serverless engine for transaction, batch and event-driven data processing in Redis. It is a dynamic framework for the execution of functions that, in turn, implement data flows in Redis, while (almost) entirely abstracting the data's distribution and choice of deployment (i.e. stand-alone vs. cluster, OSS vs. Enterprise). Functions can be implemented in different languages, including Python and C APIs .
+- RedisAI enables you to run an AI inference engine across your Redis database.
+
+
+An example of using Redis Streams, RedisGears, RedisAI, and RedisTimeSeries for Real-time Video Analytics (i.e. counting people). 
+
+
 
 
 ![demo](https://github.com/collabnix/redisedge-grafana/blob/main/images/grafana_demo.png)
