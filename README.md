@@ -39,7 +39,17 @@ The process is a pipeline of operations that go as follows:
 
 The RedisEdge stack consists of the latest Redis stable release and select RedisLabs modules intended to be used in Edge computing. For more information refer to [RedisEdge](https://github.com/RedisLabs/redis-edge-docker).
 
-### References:
 
-- https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
+
+
+### References & Presentations
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n605eYJV_Y4/0.jpg)](https://www.youtube.com/watch?v=n605eYJV_Y4)
+
+
+### Quick Demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7o_dvaY4gyU/0.jpg)](https://www.youtube.com/watch?v=7o_dvaY4gyU)
+
+
 
