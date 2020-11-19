@@ -45,7 +45,7 @@ The process is a pipeline of operations that go as follows:
     3. Calls RedisAI to execute an object recognition model on the frame.
     4. Stores the model's outputs (i.e. people counted and their whereabouts inside the frame) in Redis Stream and TimeSeries.
 3. A video web server renders the final image based on real-time data from Redis' Streams.
-4. Time series are exported from Redis to Prometheus, enabling visualization with Grafana's dashboards.
+
 
 
 ### The RedisEdge Stack
