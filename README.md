@@ -1,6 +1,6 @@
 
 # Dockerized RedisEdge Real-time Video Analytics + Redis Data Source Plugin for Grafana 
-Credits: https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
+
 
 ### Description:
 
@@ -64,5 +64,7 @@ The RedisEdge stack consists of the latest Redis stable release and select Redis
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7o_dvaY4gyU/0.jpg)](https://www.youtube.com/watch?v=7o_dvaY4gyU)
 
+## References
 
+- https://github.com/RedisGears/EdgeRealtimeVideoAnalytics
 
