@@ -1,0 +1,34 @@
+version: '3'
+services:
+  redisedge:
+    build: ./redisedge
+    ports:
+      - 6379:6379
+  init:
+    build: ./app
+    depends_on:
+      - redisedge
+    command: ['init.py', '--url', 'redis://redisedge:6379']
+  server:
+    build: ./app
+    depends_on:
+      - init
+    ports:
+      - 5000:5000
+    command: ['server.py', '--url', 'redis://redisedge:6379']
+  capture:
+    build: ./app
+    depends_on:
+      - init
+   
+    command: ['capture.py', '--url', 'redis://redisedge:6379', 'data/walking.mp4']
+   
+  
+  grafana:
+    image: ajeetraina/grafana-redisedge
+    environment:
+      - GF_INSTALL_PLUGINS=redis-app
+  #  depends_on:
+  #    - prometheus
+    ports:
+      - 3000:3000
